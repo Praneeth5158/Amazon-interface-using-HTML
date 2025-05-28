@@ -8,8 +8,7 @@
     background-color:#0f1111;
     height:60px;
     display:flex;
-    
-    
+    justify-content:space-evenly;
 }
 .logo{
     background-image:url("Amazon pictures/amazon_logo.png");
@@ -46,22 +45,38 @@
 {
     border: 2px solid white;
 }
- .search-bar{
+.nav-search
+{
     display:flex;
-    margin-top:10px;
+    /* justify-content:space-evenly; */
+    background-color:pink;
     width:620px;
     height:40px;
-    border-radius:400px; 
+    border-radius:4px;
 }
-.search-icon {
-    width:20px;
-    height:20px;
-    display:flex;
-    color:white;
-    
-} 
-.search{
-    background-color:red;
+.search-select{
+    background-color:#f3f3f3;
     width:50px;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:5px;
+    border:none;
     
+}
+.search-icon
+{
+ width:45px;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ font-size:1.2rem;
+ background-color:#febd68;
+ border-top-right-radius:4px;
+ border-bottom-right-radius:5px;
+}
+.search-input{
+    width:555px;
+    font-size:1rem;
+    border:none;
+
 }
